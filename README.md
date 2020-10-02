@@ -9,3 +9,7 @@ Standardy programowania
  - [GitFlow](programming_standards/PL/Gitflow.md)
  - [Infrastructure as a code (IaaC)](infrastructure_as_code/PL/Overview.md)
  - [Configuration as a code (IaaC)](configuration_as_code/PL/Overview.md)
+
+Omówienie środowiska laboratoryjnego
+=========
+ - [Przygotowanie środowiska](laboratory_environment/PL/Overview.md)
