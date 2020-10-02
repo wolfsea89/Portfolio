@@ -8,3 +8,4 @@ Standardy programowania
  - [Wersjonowanie semantyczne](programming_standards/PL/SemanticVersioning.md)
  - [GitFlow](programming_standards/PL/Gitflow.md)
  - [Infrastructure as a code (IaaC)](infrastructure_as_code/PL/Overview.md)
+ - [Configuration as a code (IaaC)](configuration_as_code/PL/Overview.md)
