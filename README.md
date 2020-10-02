@@ -13,3 +13,8 @@ Standardy programowania
 Omówienie środowiska laboratoryjnego
 =========
  - [Przygotowanie środowiska](laboratory_environment/PL/Overview.md)
+
+
+Struktura repozytoriów
+=========
+- [Ansible.InfrastructureAsACode](https://github.com/wolfsea89/Ansible.InfrastructureAsACode.git)
