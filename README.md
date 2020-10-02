@@ -19,3 +19,5 @@ Omówienie środowiska laboratoryjnego
 Struktura repozytoriów
 =========
 - [Ansible.InfrastructureAsACode](https://github.com/wolfsea89/Ansible.InfrastructureAsACode.git)
+  - submodules:
+    - [Ansible.Role.VM.ConfigurationSSH](https://github.com/wolfsea89/Ansible.Role.VM.ConfigurationSSH.git)
