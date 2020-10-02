@@ -13,6 +13,7 @@ Standardy programowania
 Omówienie środowiska laboratoryjnego
 =========
  - [Przygotowanie środowiska](laboratory_environment/PL/Overview.md)
+ - [Utworzenie inventory - hosts](laboratory_environment/PL/Hosts.md)
 
 
 Struktura repozytoriów
