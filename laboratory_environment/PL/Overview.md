@@ -54,7 +54,7 @@ $ sudo apt-get install -y python python3 && sudo update-alternatives --install /
 ```
 CentOS:
 ```
-$ sudo yum install -y python2 python36 && sudo apt-get install -y python python3 && python --version&& python --version
+$ yum install -y python2 python36 && sudo alternatives --install /usr/local/bin/python python /usr/bin/python3 10 && python --version
 ```
 
 [Powrót](../../README.md)
