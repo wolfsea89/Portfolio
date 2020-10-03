@@ -23,3 +23,5 @@ Struktura repozytoriów
     - [Ansible.Inventory.Example](https://github.com/wolfsea89/Ansible.Inventory.Example.git)
     - [Ansible.Role.VM.ConfigurationSSH](https://github.com/wolfsea89/Ansible.Role.VM.ConfigurationSSH.git)
     - [Ansible.Role.VM.ConfigurationSudo](https://github.com/wolfsea89/Ansible.Role.VM.ConfigurationSudo.git)
+    - [Ansible.Role.VM.SetHostname](https://github.com/wolfsea89/Ansible.Role.VM.SetHostname.git)
+Add repository Ansible.Role.VM.SetHostname
