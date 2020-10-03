@@ -24,4 +24,4 @@ Struktura repozytoriów
     - [Ansible.Role.VM.ConfigurationSSH](https://github.com/wolfsea89/Ansible.Role.VM.ConfigurationSSH.git)
     - [Ansible.Role.VM.ConfigurationSudo](https://github.com/wolfsea89/Ansible.Role.VM.ConfigurationSudo.git)
     - [Ansible.Role.VM.SetHostname](https://github.com/wolfsea89/Ansible.Role.VM.SetHostname.git)
-Add repository Ansible.Role.VM.SetHostname
+    - [Ansible.Role.VM.GroupsManagement](https://github.com/wolfsea89/Ansible.Role.VM.GroupsManagement.git)
