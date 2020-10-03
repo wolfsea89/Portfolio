@@ -1,7 +1,7 @@
 Utworzenie inventory - hosts
 =========
 
-Inventory jest to konfiguracjia dostarczana do playbooków. Tutaj powinny znaleźć się wszystkie parametry konfgiracyjne. Dobrą praktyką jest to, aby w playbookach i rolach nie było parametrów konfiguracyjnych, a jedynie defaultowe.
+Inventory jest to to przestrzeń na konfigurację, która jest dostarczana do playbooków. Tutaj powinny znaleźć się wszystkie parametry konfiguracyjne. Dobrą praktyką jest to, aby w playbookach i rolach nie było parametrów konfiguracyjnych, a jedynie domyślne.
 
 Struktura inventory
 =========
@@ -23,7 +23,7 @@ Struktura inventory
 
 Iventory Hosts
 =========
-Utworzenie mapy przynaleźności hostów do grup w inventory:
+Utworzenie mapy przynależności hostów do grup w inventory:
 
 test-servers
 ```
@@ -74,7 +74,6 @@ Tworzenie host_vars
 =========
 
 (!) Możliwe jest podzielenie inventory w host_vars na pojedyńcze pliki (np. main.yml, packages.yml) itd.
-
 
 host_vars/<< hostname >>/main.yml
 ```
