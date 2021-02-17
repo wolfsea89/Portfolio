@@ -16,6 +16,9 @@ Omówienie środowiska laboratoryjnego
  - [Utworzenie inventory - hosts](laboratory_environment/PL/Hosts.md)
  - [Utworzenie inventory - groups](laboratory_environment/PL/Groups.md)
 
+Projekty
+=========
+- [Jenkins](https://github.com/wolfsea89/Jenkins.git)
 
 Struktura repozytoriów
 =========
