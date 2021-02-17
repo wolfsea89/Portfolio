@@ -19,6 +19,16 @@ Omówienie środowiska laboratoryjnego
 
 Struktura repozytoriów
 =========
+- [Jenkins](https://github.com/wolfsea89/Jenkins.git)
+  - [Ansible-Jenkins](https://github.com/wolfsea89/Ansible-Jenkins.git)
+  - [Jenkins-BaseImage](https://github.com/wolfsea89/Jenkins-BaseImage.git)
+  - [Jenkins-SeedJobs](https://github.com/wolfsea89/Jenkins-SeedJobs.git)
+  - [Jenkins-Ci-Jenkinsfiles](https://github.com/wolfsea89/Jenkins-Ci-Jenkinsfiles.git)
+  - [Jenkins-Sharedlibraries](https://github.com/wolfsea89/Jenkins-Sharedlibraries.git)
+
+
+
+(Depreacated)
 - [Ansible.InfrastructureAsACode](https://github.com/wolfsea89/Ansible.InfrastructureAsACode.git)
   - submodules:
     - [Ansible.Inventory.Example](https://github.com/wolfsea89/Ansible.Inventory.Example.git)
