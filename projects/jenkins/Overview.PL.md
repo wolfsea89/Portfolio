@@ -8,7 +8,7 @@ https://www.jenkins.io/
 
 Jenkins to darmowy serwer automatyzacji typu open source. Pomaga zautomatyzować części tworzenia oprogramowania związane z budowaniem, testowaniem i wdrażaniem, ułatwiając ciągłą integrację i ciągłe dostarczanie.
 
-![Infrastructure](../__images/jenkins/Jenkins_infrastructure.png)
+![Infrastructure](../../__images/jenkins/Jenkins_infrastructure.png)
 
 ### Jenkins Master
 Na wirtualnej maszynie jenkins master tworzony jest użytkownik techniczny, a na nim uruchamiany kontener jenkins. Jenkins master zleca zadania do wykonania do jenkins slave'ów.
@@ -39,4 +39,4 @@ Lista repozytoriów:
 - [Jenkins-Ci-Jenkinsfiles](https://github.com/wolfsea89/Jenkins-Ci-Jenkinsfiles.git)
 - [Jenkins-Sharedlibraries](https://github.com/wolfsea89/Jenkins-Sharedlibraries.git)
 
-[Powrót](../../../README.md)
+[Powrót](../../../../README.md)
