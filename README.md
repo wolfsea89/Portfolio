@@ -22,7 +22,7 @@ Projekty
 
 Struktura repozytoriów
 =========
-- [Jenkins](https://github.com/wolfsea89/Jenkins.git)
+- Jenkins
   - [Ansible-Jenkins](https://github.com/wolfsea89/Ansible-Jenkins.git)
   - [Jenkins-BaseImage](https://github.com/wolfsea89/Jenkins-BaseImage.git)
   - [Jenkins-SeedJobs](https://github.com/wolfsea89/Jenkins-SeedJobs.git)
