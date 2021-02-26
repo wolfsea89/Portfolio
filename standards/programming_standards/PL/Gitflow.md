@@ -30,4 +30,4 @@ W ten sposób, że:
 - release/1.3 - proces CI dla brancha release pobierze numer wersji `1.3` i ustawi numer wersji `1.3.0.${BuildNumber}`
 - hotfix/1.3.1 - proces CI dla brancha hotfix pobierze numer wersji `1.3.1` i ustawi numer wersji `1.3.1.${BuildNumber}`
 
-[Powrót](../../README.md)
+[Powrót](../../../README.md)
