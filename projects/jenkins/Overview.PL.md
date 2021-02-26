@@ -1,4 +1,4 @@
-![Jenkins](../../__images/jenkins/jenkins.png)
+![Jenkins](../../__images/projects/jenkins/jenkins.png)
 
 Język: [EN](README.md), [PL](README.PL.md)
 
@@ -8,7 +8,7 @@ https://www.jenkins.io/
 
 Jenkins to darmowy serwer automatyzacji typu open source. Pomaga zautomatyzować części tworzenia oprogramowania związane z budowaniem, testowaniem i wdrażaniem, ułatwiając ciągłą integrację i ciągłe dostarczanie.
 
-![Infrastructure](../../__images/jenkins/Jenkins_infrastructure.png)
+![Infrastructure](../../__images/projects/jenkins/Jenkins_infrastructure.png)
 
 ### Jenkins Master
 Na wirtualnej maszynie jenkins master tworzony jest użytkownik techniczny, a na nim uruchamiany kontener jenkins. Jenkins master zleca zadania do wykonania do jenkins slave'ów.

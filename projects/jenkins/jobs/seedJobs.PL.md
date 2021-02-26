@@ -1,7 +1,7 @@
 Budowanie kontenera
 =========
 
-![Infrastructure](../../../__images/jenkins/seedJobs.draw.io.png)
+![Infrastructure](../../../__images/projects/jenkins/seedJobs.draw.io.png)
 
 
 ### Omówienie joba

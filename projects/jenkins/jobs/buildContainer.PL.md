@@ -1,7 +1,7 @@
 Budowanie kontenera
 =========
 
-![Infrastructure](../../../__images/jenkins/dockerBuild.png)
+![Infrastructure](../../../__images/projects/jenkins/dockerBuild.png)
 
 
 ### Omówienie joba
@@ -14,12 +14,12 @@ Na podstawie jenkinsfile i Shared Library wykonywane są następujące zadania d
 
 branche: feature/*, epicfeature/*, develop
 
-![Pipeline Release](../../../__images/jenkins/dockerJenkinsFileSnapshot.png)
+![Pipeline Release](../../../__images/projects/jenkins/dockerJenkinsFileSnapshot.png)
 
 
 branche: release/*, hotfix/*
 
-![Pipeline Release](../../../__images/jenkins/dockerJenkinsFileRelease.png)
+![Pipeline Release](../../../__images/projects/jenkins/dockerJenkinsFileRelease.png)
 
 ### Job steps
 1. Pobieranie Repoyzotorium Shared Library
