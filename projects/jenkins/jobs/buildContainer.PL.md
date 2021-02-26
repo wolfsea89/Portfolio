@@ -1,7 +1,7 @@
 Budowanie kontenera
 =========
 
-![Infrastructure](../images/dockerBuild.png)
+![Infrastructure](../../../__images/jenkins/dockerBuild.png)
 
 
 ### Omówienie joba
