@@ -18,7 +18,7 @@ Omówienie środowiska laboratoryjnego
 
 Projekty
 =========
-- [Jenkins](jenkins/Overview.PL.md)
+- [Jenkins](projects/jenkins/Overview.PL.md)
 
 Struktura repozytoriów
 =========
