@@ -14,12 +14,12 @@ Na podstawie jenkinsfile i Shared Library wykonywane są następujące zadania d
 
 branche: feature/*, epicfeature/*, develop
 
-![Pipeline Release](../images/dockerJenkinsFileSnapshot.png)
+![Pipeline Release](../../../__images/jenkins/dockerJenkinsFileSnapshot.png)
 
 
 branche: release/*, hotfix/*
 
-![Pipeline Release](../images/dockerJenkinsFileRelease.png)
+![Pipeline Release](../../../__images/jenkins/dockerJenkinsFileRelease.png)
 
 ### Job steps
 1. Pobieranie Repoyzotorium Shared Library
