@@ -16,4 +16,4 @@ Po uruchomieniu joba, jenkins pobiera niezbędne repozytoria takie jak:
 3. Utworzenie widoków
 4. Utworzenie jobów
 
-[Powrót](../README.md)
+[Powrót](../Overview.PL.md)
