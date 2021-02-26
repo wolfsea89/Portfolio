@@ -30,3 +30,5 @@ branche: release/*, hotfix/*
 6. Budowanie docker image
 7. Publikowanie docker images
 8. Sprzątanie (usuwanie obrazów)
+
+[Powrót](../../../README.md)

@@ -1,7 +1,7 @@
 Budowanie kontenera
 =========
 
-![Infrastructure](../images/seedJobs.draw.io.png)
+![Infrastructure](../../../__images/jenkins/seedJobs.draw.io.png)
 
 
 ### Omówienie joba
@@ -15,3 +15,5 @@ Po uruchomieniu joba, jenkins pobiera niezbędne repozytoria takie jak:
 2. Utworzenie joba seedJob
 3. Utworzenie widoków
 4. Utworzenie jobów
+
+[Powrót](../../../README.md)
