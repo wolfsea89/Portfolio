@@ -87,6 +87,6 @@ system:
 Przykładowe inventory
 =========
 
-[Ansible.Inventory.Example](https://github.com/wolfsea89/Ansible.Inventory.Example.git)
+[Ansible-Inventory-Example](https://github.com/wolfsea89/Ansible-Inventory-Example.git)
 
 [Powrót](../../../README.md)
