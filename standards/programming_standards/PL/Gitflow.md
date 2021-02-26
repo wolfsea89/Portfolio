@@ -9,7 +9,7 @@ Pracując z Git-em nieodłączne jest tworzenie gałęzi w ramach których rozwi
 - `hotfix` - branch z poprawkami z brancha głównego.
 - `master` - branch główny.
 
-![GitFlow](../../__images/standards/programming_standards/git_flow_org.png)
+![GitFlow](../../../__images/standards/programming_standards/git_flow_org.png)
 
 GitFlow - rozszerzenie standardu
 =========
