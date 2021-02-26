@@ -10,64 +10,31 @@ Struktura inventory
 ├── group_vars
 │   (...)
 ├── host_vars
-│   ├── mr-reactor-002
-│   ├── mr-router-001
-│   ├── mr-vm-021
-│   ├── mr-vm-022
-│   ├── mr-vm-023
-│   ├── mr-vm-024
-│   └── mr-vm-025
-├── prod-servers
-└── test-serves
+|   ├── mr-rou-001.rachuna.net:
+│   ├── localhost.yml
+│   ├── jenkins-master.rachuna.net
+│   ├── jenkins-slave.rachuna.net
+└── hosts
 ```
 
 Iventory Hosts
 =========
 Utworzenie mapy przynależności hostów do grup w inventory:
 
-test-servers
 ```
 all:
   children:
-    routeros:
+    workstasion:
       hosts:
-        mr-router-001:
-    virtual_machine:
+        localhost:
+    jenkins:
       children:
-        test:
+        jenkins_master:
           hosts:
-            mr-vm-021:
-            mr-vm-022:
-            mr-vm-023:
-            mr-vm-024:
-            mr-vm-025:
-    docker:
-      children:
-        test:
+            jenkins-master.rachuna.net:
+        jenkins_slave_linux:
           hosts:
-            mr-vm-021:
-            mr-vm-022:
-            mr-vm-023:
-            mr-vm-024:
-            mr-vm-025:
-```
-prod-servers
-```
-all:
-  children:
-    routeros:
-      hosts:
-        mr-router-001:
-    virtual_machine:
-      children:
-        production:
-          hosts:
-            mr-reactor-002:
-    docker:
-      children:
-        production:
-          hosts:
-            mr-reactor-002:
+            jenkins-slave.rachuna.net:
 ```
 
 Tworzenie host_vars

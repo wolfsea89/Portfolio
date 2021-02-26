@@ -18,7 +18,7 @@ Omówienie środowiska laboratoryjnego
 
 Projekty
 =========
-- [Jenkins](https://github.com/wolfsea89/Jenkins.git)
+- [Jenkins](jenkins/Overview.PL.md)
 
 Struktura repozytoriów
 =========
