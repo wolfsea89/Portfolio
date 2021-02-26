@@ -8,61 +8,35 @@ Struktura inventory
 ```
 .
 ├── group_vars
-│   └── all
-│       ├── main.yml
-│       └── users.yml
+│   ├── all
+│   ├── jenkins
+│   ├── jenkins_master
+│   ├── jenkins_slave_linux
+│   ├── routeros
+│   └── workstasion
 ├── host_vars
-├── prod-servers
-└── test-serves
+│   (...)
+└── hosts
 ```
 
 Iventory Hosts
 =========
 Utworzenie mapy przynależności hostów do grup w inventory:
 
-test-servers
 ```
 all:
   children:
-    routeros:
+    workstasion:
       hosts:
-        mr-router-001:
-    virtual_machine:
+        localhost:
+    jenkins:
       children:
-        test:
+        jenkins_master:
           hosts:
-            mr-vm-021:
-            mr-vm-022:
-            mr-vm-023:
-            mr-vm-024:
-            mr-vm-025:
-    docker:
-      children:
-        test:
+            jenkins-master.rachuna.net:
+        jenkins_slave_linux:
           hosts:
-            mr-vm-021:
-            mr-vm-022:
-            mr-vm-023:
-            mr-vm-024:
-            mr-vm-025:
-```
-prod-servers
-```
-all:
-  children:
-    routeros:
-      hosts:
-        mr-router-001:
-    virtual_machine:
-      children:
-        production:
-          hosts:
-            mr-reactor-002:
-    docker:
-      children:
-        production:
-          hosts:
-            mr-reactor-002:
+            jenkins-slave.rachuna.net:
 ```
 
 Tworzenie group_vars
@@ -92,6 +66,6 @@ all:
 Przykładowe inventory
 =========
 
-[Ansible.Inventory.Example](https://github.com/wolfsea89/Ansible.Inventory.Example.git)
+[Ansible-Inventory-Example](https://github.com/wolfsea89/Ansible-Inventory-Example.git)
 
-[Powrót](../../README.md)
+[Powrót](../../../README.md)

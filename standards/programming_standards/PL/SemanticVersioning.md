@@ -28,4 +28,4 @@ regexp na walidacje numer wersji `X.Y.Z` i `X.Y.Z.B`
 ^\d+.\d+.\d+.?(\d+)
 ```
 
-[Powrót](../../README.md)
+[Powrót](../../../README.md)

@@ -7,4 +7,4 @@ Za pomocą tych narzędzi możemy:
  - Skonfigurować aplikację do naszym wymagań
  - Utworzyć nowych użytkowników oraz grup i organizacji
 
-[Powrót](../../README.md)
+[Powrót](../../../README.md)

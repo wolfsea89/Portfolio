@@ -10,4 +10,4 @@ Za pomocą tych narzędzi możemy:
  - Skonfigurować ją pod konkretną usługę, poprzez instalacje niezbędnego oprogramowania
  - Powołać kontener i go wstępnie skonfigurować
 
- [Powrót](../../README.md)
+[Powrót](../../../README.md)

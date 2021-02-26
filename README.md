@@ -5,20 +5,20 @@ Język: [EN](README.md), [PL](README.PL.md)
 
 Standardy programowania
 =========
- - [Wersjonowanie semantyczne](programming_standards/PL/SemanticVersioning.md)
- - [GitFlow](programming_standards/PL/Gitflow.md)
- - [Infrastructure as a code (IaaC)](infrastructure_as_code/PL/Overview.md)
- - [Configuration as a code (IaaC)](configuration_as_code/PL/Overview.md)
+ - [Wersjonowanie semantyczne](standards/programming_standards/PL/SemanticVersioning.md)
+ - [GitFlow](standards/programming_standards/PL/Gitflow.md)
+ - [Infrastructure as a code (IaaC)](standards/infrastructure_as_code/PL/Overview.md)
+ - [Configuration as a code (IaaC)](standards/configuration_as_code/PL/Overview.md)
 
 Omówienie środowiska laboratoryjnego
 =========
- - [Przygotowanie środowiska](laboratory_environment/PL/Overview.md)
- - [Utworzenie inventory - hosts](laboratory_environment/PL/Hosts.md)
- - [Utworzenie inventory - groups](laboratory_environment/PL/Groups.md)
+ - [Przygotowanie środowiska](lab_environment/laboratory_environment/PL/Overview.md)
+ - [Utworzenie inventory - hosts](lab_environment/laboratory_environment/PL/Hosts.md)
+ - [Utworzenie inventory - groups](lab_environment/laboratory_environment/PL/Groups.md)
 
 Projekty
 =========
-- [Jenkins](https://github.com/wolfsea89/Jenkins.git)
+- [Jenkins](projects/jenkins/Overview.PL.md)
 
 Struktura repozytoriów
 =========

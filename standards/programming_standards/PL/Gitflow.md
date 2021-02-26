@@ -9,7 +9,7 @@ Pracując z Git-em nieodłączne jest tworzenie gałęzi w ramach których rozwi
 - `hotfix` - branch z poprawkami z brancha głównego.
 - `master` - branch główny.
 
-![GitFlow](../../__images/programming_standards/git_flow_org.png)
+![GitFlow](../../../__images/standards/programming_standards/git_flow_org.png)
 
 GitFlow - rozszerzenie standardu
 =========
@@ -30,4 +30,4 @@ W ten sposób, że:
 - release/1.3 - proces CI dla brancha release pobierze numer wersji `1.3` i ustawi numer wersji `1.3.0.${BuildNumber}`
 - hotfix/1.3.1 - proces CI dla brancha hotfix pobierze numer wersji `1.3.1` i ustawi numer wersji `1.3.1.${BuildNumber}`
 
-[Powrót](../../README.md)
+[Powrót](../../../README.md)
