@@ -5,10 +5,10 @@ Język: [EN](README.md), [PL](README.PL.md)
 
 Standardy programowania
 =========
- - [Wersjonowanie semantyczne](programming_standards/PL/SemanticVersioning.md)
- - [GitFlow](programming_standards/PL/Gitflow.md)
- - [Infrastructure as a code (IaaC)](infrastructure_as_code/PL/Overview.md)
- - [Configuration as a code (IaaC)](configuration_as_code/PL/Overview.md)
+ - [Wersjonowanie semantyczne](standards/programming_standards/PL/SemanticVersioning.md)
+ - [GitFlow](standards/programming_standards/PL/Gitflow.md)
+ - [Infrastructure as a code (IaaC)](standards/infrastructure_as_code/PL/Overview.md)
+ - [Configuration as a code (IaaC)](standards/configuration_as_code/PL/Overview.md)
 
 Omówienie środowiska laboratoryjnego
 =========

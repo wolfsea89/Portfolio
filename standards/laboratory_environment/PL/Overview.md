@@ -8,13 +8,13 @@ Przygotowano 6 maszyn wirtualnych w VirtualBox:
 - mr-vm-024.yml # CentOS 7
 - mr-vm-025.yml # CentOS 8
 
-![VirtualBox](../../__images/laboratory_environment/virtual_machine.png)
+![VirtualBox](../../__images/standards/laboratory_environment/virtual_machine.png)
 
 Skonfigurowanie wirtualnej maszyny
 =========
 
 Ustawienie karty sieciowej w trybie mostka sieciowego, w taki sposób, aby otrzymywał adres IP z Routera.
-![Konfiguracja Karty Sieciowej](../../__images/laboratory_environment/configure_network_interface.png)
+![Konfiguracja Karty Sieciowej](../../__images/standards/laboratory_environment/configure_network_interface.png)
 
 Ustawienie na serwerze DNS
 =========
@@ -57,4 +57,4 @@ CentOS:
 $ yum install -y python2 python36 && sudo alternatives --install /usr/local/bin/python python /usr/bin/python3 10 && python --version
 ```
 
-[Powrót](../../README.md)
+[Powrót](../../../README.md)
