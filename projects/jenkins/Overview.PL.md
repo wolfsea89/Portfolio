@@ -39,4 +39,4 @@ Lista repozytoriów:
 - [Jenkins-Ci-Jenkinsfiles](https://github.com/wolfsea89/Jenkins-Ci-Jenkinsfiles.git)
 - [Jenkins-Sharedlibraries](https://github.com/wolfsea89/Jenkins-Sharedlibraries.git)
 
-[Powrót](../../../README.md)
+[Powrót](../../README.md)
