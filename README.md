@@ -12,12 +12,14 @@ Standardy programowania
 
 Omówienie środowiska laboratoryjnego
 =========
- - [Przygotowanie środowiska](lab_environment/laboratory_environment/PL/Overview.md)
- - [Utworzenie inventory - hosts](lab_environment/laboratory_environment/PL/Hosts.md)
- - [Utworzenie inventory - groups](lab_environment/laboratory_environment/PL/Groups.md)
+ - [Ogólny schemat sieci](lab_environment/PL/Overview.md)
+ - [Hosts](lab_environment/PL/Hosts.md)
+
 
 Projekty
 =========
+- Proxmox
+- PXE
 - [Jenkins](projects/jenkins/Overview.PL.md)
 
 Struktura repozytoriów
