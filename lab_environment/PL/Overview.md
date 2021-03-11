@@ -1,20 +1,21 @@
-Stworzenie środowiska
+Ogólny schemat sieci
 =========
 
-Przygotowano 6 maszyn wirtualnych w VirtualBox:
-- mr-vm-021.yml # Ubuntu 16.04
-- mr-vm-022.yml # Ubuntu 18.04
-- mr-vm-023.yml # Ubuntu 20.04
-- mr-vm-024.yml # CentOS 7
-- mr-vm-025.yml # CentOS 8
+![Network](../../../__images/lab_environment/network.png)
 
-![VirtualBox](../../../__images/lab_environment/laboratory_environment/virtual_machine.png)
-
-Skonfigurowanie wirtualnej maszyny
+Mikrotik Interface
 =========
+| Interface | Name        | Network     |
+| --------- | ------------| ----------- |
+| ether1    | WAN-01      |             |
+| ether2    | LAN-01      | LAN-PROXMOX |
+| ether3    | LAN-02      | LAN-PROXMOX |
+| ether4    | LAN-03      | LAN-PROXMOX |
+| ether5    | LAN-04      | LAN-ADMINS  |
+| wlan1     | WiFi-LAN-01 | LAN-USERS   |
+| wlan2     | WiFi-LAN-02 | LAN-USERS   |
+| vlan10    | VLAN-PROD   | LAN-PROD    |
 
-Ustawienie karty sieciowej w trybie mostka sieciowego, w taki sposób, aby otrzymywał adres IP z Routera.
-![Konfiguracja Karty Sieciowej](../../../__images/lab_environment/laboratory_environment/configure_network_interface.png)
 
 Ustawienie na serwerze DNS
 =========
