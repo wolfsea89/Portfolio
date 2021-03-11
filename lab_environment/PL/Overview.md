@@ -27,4 +27,4 @@ Przykład fqdn: `mv-vm-021.rachuna.net`
 /ip dns static add regexp=\".*\\\\.<< fqdn >>\" address=<< addess_ip >> type=A"
 ```
 
-[Powrót](../../../README.md)
+[Powrót](../../README.md)
