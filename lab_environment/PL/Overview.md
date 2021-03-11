@@ -1,7 +1,7 @@
 Ogólny schemat sieci
 =========
 
-![Network](../../../__images/lab_environment/network.png)
+![Network](../../__images/lab_environment/network.png)
 
 Mikrotik Interface
 =========
@@ -35,27 +35,6 @@ $ cat /ect/hosts | c:\Windows\System32\Drivers\etc\hosts
 
 << adres_ip >>   << fqdn >> << hostname >>
 << adres_ip >> *.<< fqdn >> << hostname >>
-```
-
-Wstępna konfiguracja wirtualnych maszyn
-=========
-Do komunikacji potrzeby jest klucz SSH, za pomocą którego będziesz się komunikował z maszynami wirtualnymi.
-```
-$ ssh-keygen
-```
-Następnie z każdym serwerem musisz wymienić się kluczami.
-```
-ssh-copy-id << fqdn >>
-```
-Następnie trzeba przygotować maszyny pod Ansible.
-
-Ubuntu:
-```
-$ sudo apt-get install -y python python3 && sudo update-alternatives --install /usr/local/bin/python python /usr/bin/python3 10 && python --version
-```
-CentOS:
-```
-$ yum install -y python2 python36 && sudo alternatives --install /usr/local/bin/python python /usr/bin/python3 10 && python --version
 ```
 
 [Powrót](../../../README.md)
