@@ -27,14 +27,4 @@ Przykład fqdn: `mv-vm-021.rachuna.net`
 /ip dns static add regexp=\".*\\\\.<< fqdn >>\" address=<< addess_ip >> type=A"
 ```
 
-Jeżeli nie masz routera mikrotik, nic nie szkodzi, możesz ustawić u siebie na swoim hoście taką politykę.
-```
-$ cat /ect/hosts | c:\Windows\System32\Drivers\etc\hosts
-
-(...)
-
-<< adres_ip >>   << fqdn >> << hostname >>
-<< adres_ip >> *.<< fqdn >> << hostname >>
-```
-
 [Powrót](../../../README.md)
