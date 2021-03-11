@@ -13,6 +13,8 @@ Standardy programowania
 Omówienie środowiska laboratoryjnego
 =========
  - [Ogólny schemat sieci](lab_environment/PL/Overview.md)
+ - [Hosts](lab_environment/PL/Hosts.md)
+
 
 Projekty
 =========
