@@ -2,6 +2,8 @@ Certyfikaty SSL
 =========
 
 ![Jak działa Certyfikat SSL](../../__images/lab_environment/how-do-ssl-certificates-work.png)
+
+
 (Zródło: https://www.iseenlab.com/how-does-ssl-certificate-work-actual-process/)
 
 
@@ -36,10 +38,39 @@ openssl req -nodes -newkey rsa:4096 -keyout CA-rachuna.net.key -new -x509 -days 
 - `CA-rachuna.net.key` to klucz prywatny, którego CA używa do podpisywania certyfikatów dla serwerów i klientów. Jeśli osoba atakująca uzyska dostęp do Twojego urzędu certyfikacji do tego pliku, będziesz musiał zniszczyć swój urząd certyfikacji. Z tego powodu plik `CA-rachuna.net.key` powinien znajdować się tylko na komputerze urzędu certyfikacji i najlepiej, aby komputer urzędu certyfikacji pozostawał w trybie offline, gdy nie podpisuje żądań certyfikatów, jako dodatkowy środek bezpieczeństwa.
 
 
-
-Przykładowe inventory
+Certyfikat Serwera
 =========
 
-[Ansible-Inventory-Example](https://github.com/wolfsea89/Ansible-Inventory-Example.git)
+Plik konfiguracyjny z parametrami wejściowymi do generowania certyfikatu dla usługi / serwera
+
+```
+mrachuna@nbo-rachuna-002:~/cert $ cat router.rachuna.net.cnf 
+subjectAltName = @alt_names
+
+[ req ]
+prompt = no
+distinguished_name = req_distinguished_name
+
+[ req_distinguished_name ]
+C = PL
+ST = Kujawsko-Pomorskie
+L = Torun
+O = rachuna.net
+OU = SysAdmin/DevOps
+CN = rachuna.net
+emailAddress = rachuna.maciej@gmail.com
+
+[alt_names]
+DNS.0 = router.rachuna.net
+```
+
+Generowanie certyfikatu SSL
+```
+openssl req -newkey rsa:4096 -nodes -keyout router.rachuna.net.key -out router.rachuna.net.csr -config router.rachuna.net.cnf
+```
+Podpisywanie wygenerowanego certyfikatu certyfikatem CA
+```
+openssl x509 -req -days 365 -in router.rachuna.net.csr -CA ca.crt -CAkey ca.key -set_serial 01 -out router.rachuna.net.crt -extfile router.rachuna.net.cnf
+```
 
 [Powrót](../../README.md)
