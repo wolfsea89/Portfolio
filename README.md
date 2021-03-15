@@ -14,6 +14,7 @@ Omówienie środowiska laboratoryjnego
 =========
  - [Ogólny schemat sieci](lab_environment/PL/Overview.md)
  - [Hosts](lab_environment/PL/Hosts.md)
+ - [Certyfikaty SSL](lab_environment/PL/Certificates.md)
 
 
 Projekty
