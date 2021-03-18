@@ -109,7 +109,7 @@ openssl pkcs12 -export -in jenkins.rachuna.net.crt -inkey jenkins.rachuna.net.ke
 Enter Export Password: << p12_password >>
 Verifying - Enter Export Password: << p12_password >>
 
-#### 
+#### Generowanie klucza jks
 keytool \
   -importkeystore \
   -deststorepass << jks_password >> \
