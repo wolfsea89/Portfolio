@@ -70,7 +70,55 @@ openssl req -newkey rsa:4096 -nodes -keyout router.rachuna.net.key -out router.r
 ```
 Podpisywanie wygenerowanego certyfikatu certyfikatem CA
 ```
-openssl x509 -req -days 365 -in router.rachuna.net.csr -CA ca.crt -CAkey ca.key -set_serial 01 -out router.rachuna.net.crt -extfile router.rachuna.net.cnf
+openssl x509 -req -days 365 -in router.rachuna.net.csr -CA CA-rachuna.net.crt -CAkey CA-rachuna.net.key -set_serial 01 -out router.rachuna.net.crt -extfile router.rachuna.net.cnf
+```
+
+Certyfikat Serwera w wersji jks
+=========
+Przykład wykonany dla jenkinsa:
+
+```
+#### Tworzenie mapy
+echo "subjectAltName = @alt_names
+
+[ req ]
+prompt = no
+distinguished_name = req_distinguished_name
+
+[ req_distinguished_name ]
+C = PL
+ST = Kujawsko-Pomorskie
+L = Torun
+O = rachuna.net
+OU = SysAdmin/DevOps
+CN = rachuna.net
+emailAddress = rachuna.maciej@gmail.com
+
+[alt_names]
+DNS.0 = jenkins.rachuna.net
+" > jenkins.rachuna.net.cnf 
+
+#### Generowanie certyfikatu
+openssl req -newkey rsa:4096 -nodes -keyout jenkins.rachuna.net.key -out jenkins.rachuna.net.csr -config jenkins.rachuna.net.cnf
+
+#### Podpisywanie certyfikatu certyfikatem CA
+openssl x509 -req -days 365 -in jenkins.rachuna.net.csr -CA CA-rachuna.net.crt -CAkey CA-rachuna.net.key -set_serial 01 -out jenkins.rachuna.net.crt -extfile jenkins.rachuna.net.cnf
+
+#### Generowanie certyfikatu p12
+openssl pkcs12 -export -in jenkins.rachuna.net.crt -inkey jenkins.rachuna.net.key -out jenkins.rachuna.net.p12 -name jenkins.rachuna.net
+Enter Export Password: << p12_password >>
+Verifying - Enter Export Password: << p12_password >>
+
+#### 
+keytool \
+  -importkeystore \
+  -deststorepass << jks_password >> \
+  -destkeypass << jks_password >> \
+  -destkeystore jenkins.rachuna.net.jks \
+  -srckeystore jenkins.rachuna.net.p12 \
+  -srcstoretype PKCS12 \
+  -srcstorepass << p12_password >> \
+  -alias jenkins.rachuna.net
 ```
 
 [Powrót](../../README.md)
