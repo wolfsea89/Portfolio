@@ -1,9 +1,6 @@
 Hosty
 =========
 
-
-Mikrotik Interface
-=========
 | Hosts                      | IP            | Opis                |
 | -------------------------- | --------------| ------------------- |
 | router.rachuna.net         | 10.0.0.1/24   | Router brzegowy     |
