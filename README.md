@@ -26,11 +26,13 @@ Projekty
 Struktura repozytoriów
 =========
 - Jenkins
-  - [Ansible-Jenkins](https://github.com/wolfsea89/Ansible-Jenkins.git)
-  - [Jenkins-BaseImage](https://github.com/wolfsea89/Jenkins-BaseImage.git)
+  - [Jenkins-Ansible](https://github.com/wolfsea89/Jenkins-Ansible.git)
+  - [Jenkins-Docker-BaseImage](https://github.com/wolfsea89/Jenkins-Docker-BaseImage.git)
   - [Jenkins-SeedJobs](https://github.com/wolfsea89/Jenkins-SeedJobs.git)
   - [Jenkins-Ci-Jenkinsfiles](https://github.com/wolfsea89/Jenkins-Ci-Jenkinsfiles.git)
   - [Jenkins-Sharedlibraries](https://github.com/wolfsea89/Jenkins-Sharedlibraries.git)
+- PXE
+  - [Pxe-Docker-BaseImage](https://github.com/wolfsea89/Pxe-Docker-BaseImage.git)
 
 
 
