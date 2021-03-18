@@ -20,7 +20,7 @@ Omówienie środowiska laboratoryjnego
 Projekty
 =========
 - Proxmox
-- PXE
+- [PXE](https://github.com/wolfsea89/Pxe-Docker-BaseImage.git)
 - [Jenkins](projects/jenkins/Overview.PL.md)
 
 Struktura repozytoriów
