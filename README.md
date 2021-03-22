@@ -19,9 +19,11 @@ Omówienie środowiska laboratoryjnego
 
 Projekty
 =========
-- Proxmox
-- [PXE](https://github.com/wolfsea89/Pxe-Docker-BaseImage.git)
 - [Jenkins](projects/jenkins/Overview.PL.md)
+- Proxmox
+- [PXE Server in Docker](https://github.com/wolfsea89/Pxe-Docker-BaseImage.git)
+- [Configure Developers Workstation](projects/configureDevelopersWorkstation/Overview.PL.md)
+
 
 Struktura repozytoriów
 =========
@@ -33,21 +35,5 @@ Struktura repozytoriów
   - [Jenkins-Sharedlibraries](https://github.com/wolfsea89/Jenkins-Sharedlibraries.git)
 - PXE
   - [Pxe-Docker-BaseImage](https://github.com/wolfsea89/Pxe-Docker-BaseImage.git)
-
-
-
-(Depreacated)
-- [Ansible.InfrastructureAsACode](https://github.com/wolfsea89/Ansible.InfrastructureAsACode.git)
-  - submodules:
-    - [Ansible.Inventory.Example](https://github.com/wolfsea89/Ansible.Inventory.Example.git)
-    - [Ansible.Role.VM.ConfigurationSSH](https://github.com/wolfsea89/Ansible.Role.VM.ConfigurationSSH.git)
-    - [Ansible.Role.VM.ConfigurationSudo](https://github.com/wolfsea89/Ansible.Role.VM.ConfigurationSudo.git)
-    - [Ansible.Role.VM.SetHostname](https://github.com/wolfsea89/Ansible.Role.VM.SetHostname.git)
-    - [Ansible.Role.VM.GroupsManagement](https://github.com/wolfsea89/Ansible.Role.VM.GroupsManagement.git)
-    - [Ansible.Role.VM.UsersManagement](https://github.com/wolfsea89/Ansible.Role.VM.UsersManagement.git)
-    - [Ansible.Role.VM.InstallPackages](https://github.com/wolfsea89/Ansible.Role.VM.InstallPackages.git)
-    - [Ansible.Role.VM.ConfigurationDocker](https://github.com/wolfsea89/Ansible.Role.VM.ConfigurationDocker.git)
-
-Lista projektów:
-=========
-[Lista projektów](https://github.com/users/wolfsea89/projects/11)
+- Workstation
+  - [Workstation-Ansible](https://github.com/wolfsea89/Workstation-Ansible.git)

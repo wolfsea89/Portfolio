@@ -33,7 +33,7 @@ Instalacja Jenkinsa
 
 Lista repozytoriów:
 =========
-- [Ansible-Jenkins](https://github.com/wolfsea89/Ansible-Jenkins.git)
+- [Jenkins-Ansible](https://github.com/wolfsea89/Jenkins-Ansible.git)
 - [Jenkins-BaseImage](https://github.com/wolfsea89/Jenkins-BaseImage.git)
 - [Jenkins-SeedJobs](https://github.com/wolfsea89/Jenkins-SeedJobs.git)
 - [Jenkins-Ci-Jenkinsfiles](https://github.com/wolfsea89/Jenkins-Ci-Jenkinsfiles.git)
