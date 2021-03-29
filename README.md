@@ -19,6 +19,7 @@ Omówienie środowiska laboratoryjnego
 
 Projekty
 =========
+- [Mikrotik Router OS](https://github.com/wolfsea89/Mikrotik-RouterOs-Ansible.git)
 - [Jenkins](projects/jenkins/Overview.PL.md)
 - Proxmox
 - [PXE Server in Docker](https://github.com/wolfsea89/Pxe-Docker-BaseImage.git)
@@ -27,6 +28,8 @@ Projekty
 
 Struktura repozytoriów
 =========
+- Mikrotik
+  - [Mikrotik-RouterOs-Ansible](https://github.com/wolfsea89/Mikrotik-RouterOs-Ansible.git)
 - Jenkins
   - [Jenkins-Ansible](https://github.com/wolfsea89/Jenkins-Ansible.git)
   - [Jenkins-Docker-BaseImage](https://github.com/wolfsea89/Jenkins-Docker-BaseImage.git)
