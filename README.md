@@ -25,6 +25,22 @@ Projekty
 - [PXE Server in Docker](https://github.com/wolfsea89/Pxe-Docker-BaseImage.git)
 - [Configure Developers Workstation](projects/configureDevelopersWorkstation/Overview.PL.md)
 
+Szkolenie junior developerów
+=========
+- Praca z repozytorium kodu
+  - Co to jest system kontroli wersji
+  - Omówienie narzędzia GIT
+  - Stworzenie repozytorium do nauki
+  - Zmiana brancha main -> master - w repozytorium github
+  - Utworzenie brancha develop lokalnie i wysłanie zmian na serwer
+  - Utworzenie brancha feature/pierwszy_commit - stworzenie pierwszego commita
+  - Stworzenie pierwszego Merge Request i omówienie co to jest Code Review
+  - Stworzenie brancha feature/developer1 i feature/developer2 - symulacja dwóch programistów
+  - Stworzenie merge lokalnie i wysłanie zmian na serwer
+  - Stworzenie pierwszego konfliktu i omówienie jego. W jaki sposób można go rozwiązać
+  - Wystawienie brancha release - (symulacja stworzenia wydania)
+  - Wystawienie brancha hotfix - (symulacja wystawienie poprawki)
+  - Omówienie mergowania między branchami i jak wygląda dalszy rozwój w repozytorium kodu
 
 Struktura repozytoriów
 =========
